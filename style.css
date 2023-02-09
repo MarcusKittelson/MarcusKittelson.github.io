@@ -1,0 +1,137 @@
+img {
+  width: 200px;
+	height: 280px;
+	border-radius: 30px;
+}
+
+section{
+	display: flex;
+	justify-content: left;
+}
+
+h2{
+  color: rgb(102, 102, 102);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+  color: rgb(102, 102, 102);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4 {
+  color: rgb(125, 0, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left{
+	border-right: 1px solid lightgray;
+	text-align: center;
+	height: 1000px;
+  flex-direction: row
+}
+.right{
+  flex: 1;
+  padding-left: 40px;
+  flex-direction: row
+}
+.reference_links{
+	background-color: white;
+	text-align: center;
+	border: 50pxs solid;
+  border-top: solid rgb(125, 0, 255);
+  border-bottom: solid rgb(125, 0, 255);
+  padding:  20px;
+  }
+
+  .reference_links a{
+	float: center;
+  color:gray;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 17px
+  }
+
+  .reference_links a:hover {
+	  color: rgb(11, 181, 181);
+  }
+
+  .page_name{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(77, 77, 77);
+  }
+
+table {
+  width: 100%;
+}
+  
+progress {
+  width: 80%;
+  height: 20px;
+}
+
+th {
+  text-align: left;
+}
+
+.format{
+  width: 30%;
+}
+
+.tab_grey{
+  text-align: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(77, 77, 77);
+  padding-right: 900px;
+}
+
+.list_format{
+  list-style-type: "- ";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  margin-bottom: lem 0;
+}
+
+.link{
+  text-decoration: none;
+  color:rgb(125, 0, 255)
+}
+
+.shiftrightwcolor{
+  text-align: right;
+  padding-right: 80px;
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottom_footer{
+  position: scroll;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid darkblue;
+}
+
+.current_display{
+  color: purple
+}
+
+.light_font{
+  color: rgb(102, 102, 102)
+}
+
+
+@media screen and (max-width:900px) {
+
+  section {
+    display: block;
+    justify-content: center;
+
+}
+.title{
+  text-align: center;
+}
+}
